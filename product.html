@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--Tailwind css cdn link-->
+    <link href="
+    https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+    " rel="stylesheet">
+</head>
+
+<body>
+    <!--responsive navbar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-lg sticky top- z-1">
+        <h1 class="text-2xl font-bold">GREENDEN</h1>
+        <ul class="flex gap-5 text-grey-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="#">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="#">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- product section -->
+    <div style="display: flex; justify-content: center; margin: 0 20px;">
+        <input type="text" class="border border-black p-2 mt-7" style="width: 80%;" placeholder="Search for Product">
+    </div>
+    <!-- product imgsection -->
+    <Section class="p-4 text-center ">
+        <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4">
+            <div>
+                <img src="./images/rs1.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 " alt="images">
+                <h1>Rose Plant</h1>
+                <p>$25</p>
+            </div>
+            <div>
+                <img src="./images/rs2.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="images">
+                <h1>Sun Flower Plant</h1>
+                <p>$25</p>
+            </div>
+            <div>
+                <img src="./images/rs3.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="images">
+                <h1>Snake Plant</h1>
+                <p>$25</p>
+            </div>
+            <div>
+                <img src="./images/rs4.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="images">
+                <h1>Aloe Vera</h1>
+                <p>$25</p>
+            </div>
+            <div>
+                <img src="./images/rs5.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 " alt="images">
+                <h1>Peace Lily</h1>
+                <p>$25</p>
+            </div>
+            <div>
+                <img src="./images/rs6.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="images">
+                <h1>Christmas Cactus</h1>
+                <p>$25</p>
+            </div>
+            <div>
+                <img src="./images/rs7.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="images">
+                <h1>Fiddle Leaf Fig</h1>
+                <p>$25</p>
+            </div>
+            <div>
+                <img src="./images/rs8.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="images">
+                <h1>Geranium</h1>
+                <p>$25</p>
+            </div>
+        </div>
+    </Section>
+    
+    <!--Footer-->
+    <section class="bg-green-100 p-10 flex  flex-col gap-5">
+        <h1 class="font-bold text-4xl">Greenden</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam error voluptatum tempore.</p>
+        <p>@ 2024 Greenday.com</p>
+    </section>
+</body>
